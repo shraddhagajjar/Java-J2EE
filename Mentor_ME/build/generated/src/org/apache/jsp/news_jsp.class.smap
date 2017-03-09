@@ -1,0 +1,18 @@
+SMAP
+news_jsp.java
+JSP
+*S JSP
+*F
++ 0 news.jsp
+news.jsp
++ 1 header.jsp
+header.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+5,118:50
+5#1,24:168
+122#0,7:191
+5#2,33:198
+128#0,5:230
+*E

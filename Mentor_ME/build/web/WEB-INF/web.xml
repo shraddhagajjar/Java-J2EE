@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <context-param>
+        <param-name>javax.faces.PROJECT_STAGE</param-name>
+        <param-value>Development</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>Faces Servlet</servlet-name>
+        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Faces Servlet</servlet-name>
+        <url-pattern>/faces/*</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    <servlet>
+        <servlet-name>StudentLogin</servlet-name>
+        <servlet-class>mentor_me.student.StudentLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentLogin</servlet-name>
+        <url-pattern>/StudentLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AskQuestionServlet</servlet-name>
+        <servlet-class>mentor_me.student.AskQuestionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AskQuestionServlet</servlet-name>
+        <url-pattern>/AskQuestionServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>StudnetSignUpServlet</servlet-name>
+        <servlet-class>mentor_me.student.StudnetSignUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudnetSignUpServlet</servlet-name>
+        <url-pattern>/StudnetSignUpServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AdminLogin</servlet-name>
+        <servlet-class>mentor_me.admin.AdminLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogin</servlet-name>
+        <url-pattern>/AdminLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MentorLogin</servlet-name>
+        <servlet-class>mentor_me.mentor.MentorLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MentorLogin</servlet-name>
+        <url-pattern>/MentorLogin</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet>
+        <servlet-name>MentorSignupServlet</servlet-name>
+        <servlet-class>mentor_me.mentor.MentorSignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MentorSignupServlet</servlet-name>
+        <url-pattern>/MentorSignupServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>UpdateMentorServlet</servlet-name>
+        <servlet-class>mentor_me.mentor.UpdateMentorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateMentorServlet</servlet-name>
+        <url-pattern>/UpdateMentorServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>GiveAnswerServlet</servlet-name>
+        <servlet-class>mentor_me.mentor.GiveAnswerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GiveAnswerServlet</servlet-name>
+        <url-pattern>/GiveAnswerServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <welcome-file-list>
+        <welcome-file>faces/index.xhtml</welcome-file>
+    </welcome-file-list>
+</web-app>

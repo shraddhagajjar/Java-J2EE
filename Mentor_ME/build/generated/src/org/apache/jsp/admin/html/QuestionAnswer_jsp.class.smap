@@ -1,0 +1,26 @@
+SMAP
+QuestionAnswer_jsp.java
+JSP
+*S JSP
+*F
++ 0 QuestionAnswer.jsp
+admin/html/QuestionAnswer.jsp
++ 1 header.jsp
+admin/html/header.jsp
++ 2 footer.jsp
+admin/html/footer.jsp
+*L
+5,126:52
+5#1,28:178
+130#0,9:205
+140,27:216
+166,16:243
+182,8:260
+189,2:268
+191,6:270,3
+197,3:288
+200,4:292
+203,7:296
+5#2,31:303
+209#0,5:333
+*E

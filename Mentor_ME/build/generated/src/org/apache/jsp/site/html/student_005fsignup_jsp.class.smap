@@ -1,0 +1,36 @@
+SMAP
+student_005fsignup_jsp.java
+JSP
+*S JSP
+*F
++ 0 student_signup.jsp
+site/html/student_signup.jsp
++ 1 header.jsp
+site/html/header.jsp
++ 2 footer.jsp
+site/html/footer.jsp
+*L
+5,107:53
+5#1,25:160
+111#0,53:184
+165,16:239
+180,3:255
+183,3:259
+185,3:262
+187,4:265
+190:269
+191:270,6
+192:276
+193:277,3
+194,10:280
+204,3:291
+206,3:294
+208,4:297
+211:301
+212:302,6
+213:308
+214:309,3
+215,27:312
+5#2,32:339
+241#0,6:370
+*E
